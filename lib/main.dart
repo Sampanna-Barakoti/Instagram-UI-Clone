@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:instagram/screens/splash/splashscreen.dart';
 
 void main() {
