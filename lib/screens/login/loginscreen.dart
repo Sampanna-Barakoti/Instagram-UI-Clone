@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/screens/bottomnav/bottomnav.dart';
 import 'package:instagram/screens/signup/signupscreen.dart';
 import 'package:instagram/widgets/uihelper.dart';
 // import 'package:flutter/scheduler.dart';
@@ -42,7 +43,15 @@ class Loginscreen extends StatelessWidget {
               ],
             ),
             SizedBox(height: 10),
-            Uihelper.customButton(buttonText: "Log In", callback: () {}),
+            Uihelper.customButton(
+              buttonText: "Log In",
+              callback: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => Bottomnav()),
+                );
+              },
+            ),
             SizedBox(height: 25),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

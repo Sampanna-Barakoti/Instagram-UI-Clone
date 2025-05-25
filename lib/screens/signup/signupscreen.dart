@@ -38,7 +38,15 @@ class Signupscreen extends StatelessWidget {
               keyboardType: TextInputType.text,
             ),
             SizedBox(height: 20),
-            Uihelper.customButton(buttonText: "Sign up", callback: () {}),
+            Uihelper.customButton(
+              buttonText: "Sign up",
+              callback: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => Loginscreen()),
+                );
+              },
+            ),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
