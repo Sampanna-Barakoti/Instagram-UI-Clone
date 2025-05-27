@@ -4,7 +4,7 @@ import 'package:instagram/screens/bottomnav/homescreen.dart';
 import 'package:instagram/screens/bottomnav/postscreen.dart';
 import 'package:instagram/screens/bottomnav/profilescreen.dart';
 import 'package:instagram/screens/bottomnav/searchscreen.dart';
-import 'package:instagram/widgets/uihelper.dart';
+// import 'package:instagram/widgets/uihelper.dart';
 
 class Bottomnav extends StatefulWidget {
   const Bottomnav({super.key});
