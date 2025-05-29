@@ -35,7 +35,7 @@ class Uihelper {
     );
   }
 
-  static customImage({required String imageURL}) {
+  static Widget customImage({required String imageURL}) {
     return Image.asset(
       "assets/images/$imageURL",
       // height: 100,
