@@ -7,7 +7,7 @@ import 'package:instagram/screens/bottomnav/searchscreen.dart';
 // import 'package:instagram/widgets/uihelper.dart';
 
 class Bottomnav extends StatefulWidget {
-  const Bottomnav({super.key});
+  // const Bottomnav({super.key});
 
   @override
   State<Bottomnav> createState() => _BottomnavState();
