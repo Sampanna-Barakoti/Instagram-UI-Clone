@@ -5,6 +5,6 @@ class Postscreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("psoit")));
+    return Scaffold(body: Center(child: Text("post it here!")));
   }
 }
